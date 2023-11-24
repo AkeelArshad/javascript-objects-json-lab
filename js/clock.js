@@ -7,8 +7,7 @@ const myNode = document.createElement("div");
 const digitalClock = document.getElementById("digitalClock");
 digitalClock.appendChild(myNode);
 
-const myDate = new Date();
-console.dir(myDate);
+
 
 // show only hours, minutes and seconds
 
@@ -16,6 +15,7 @@ console.dir(myDate);
 const updateTime = function()
 {
     console.info("tick tock");
+    const myDate = new Date();
     myNode.innerHTML = myDate.toLocaleTimeString([], {hour: "2-digit", minute: "2-digit", second: "2-digit"});
 };
 setInterval(updateTime, 1000);
