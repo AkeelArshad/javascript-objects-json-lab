@@ -18,4 +18,8 @@ const updateTime = function()
 setInterval(updateTime, 1000);
 updateTime();
 
+const secondHand = document.getElementById("secondHand");
+const minHand = document.getElementById("minHand");
+const hrHand = document.getElementById("hrHand");
+
 })();
