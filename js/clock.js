@@ -19,5 +19,6 @@ const updateTime = function()
     myNode.innerHTML = myDate.toLocaleTimeString([], {hour: "2-digit", minute: "2-digit", second: "2-digit"});
 }
 setInterval(updateTime, 1000);
+updateTime();
 
 })();
