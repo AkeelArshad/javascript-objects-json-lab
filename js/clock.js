@@ -9,5 +9,6 @@ digitalClock.appendChild(myNode);
 myNode.innerHTML = "Welcome";
 
 const myDate = new Date();
+console.dir(myDate);
 
 })();
