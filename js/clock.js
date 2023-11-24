@@ -9,9 +9,6 @@ digitalClock.appendChild(myNode);
 
 
 
-// show only hours, minutes and seconds
-
-
 const updateTime = function()
 {
     console.info("tick tock");
