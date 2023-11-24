@@ -17,4 +17,11 @@ setInterval(function()
 {    
 }, 1000);
 
+const updateTime = function()
+{
+    console.info('tick tock');
+}
+
+setInterval(updateTime, 1000);
+
 })();
