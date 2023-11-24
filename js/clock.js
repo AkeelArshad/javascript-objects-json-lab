@@ -21,5 +21,6 @@ updateTime();
 const secondHand = document.getElementById("secondHand");
 const minHand = document.getElementById("minHand");
 const hrHand = document.getElementById("hrHand");
+hrHand.style.backgroundColor = '#0f0';
 
 })();
