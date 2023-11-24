@@ -4,5 +4,6 @@
     console.info("Hello JS");
 
 const myNode = document.createElement("div");
+digitalClock.appendChild(nyNode);
 
 })();
